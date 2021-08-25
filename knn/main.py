@@ -3,7 +3,7 @@ import Model
 IRIS_TRAIN_PATH = "datasets/iris_train.csv"
 IRIS_TEST_PATH = "datasets/iris_test.csv"
 HEART_TRAIN_PATH = "datasets/heart_train.csv"
-HEART_TRAINT_PATH = "datasets/heart_test.csv"
+HEART_TEST_PATH = "datasets/heart_test.csv"
 
 def main():
     train_data, train_y = load_data(IRIS_TRAIN_PATH)
